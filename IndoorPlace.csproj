@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <Copyright>Indoor Place</Copyright>
+    <PackageProjectUrl>https://devoutlet.azurewebsites.net/</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
