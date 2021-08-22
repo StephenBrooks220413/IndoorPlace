@@ -2,14 +2,17 @@
     ViewData["Title"] = "Home Page";
 }
 
+<!--full page responsive content-->
 <div class="intro-bg">
     <div class="container text-center">
-        <h1 class="display-3 text-dark">See Our Indoor Places</h1>
+        <h1 class="display-3 text-warning">See Our Indoor Places</h1>
         <br />
-        <a href="mailto:mail@somemail.com" class="btn btn-dark btn-lg">MORE INFO</a>
+        <a href="mailto:mail@somemail.com" class="btn btn-warning btn-lg">MORE INFO</a>
     </div>
 </div>
+<!--full page responsive content-->
 
+<!--content intro-->
 <div class="section1">
   <div class="text-center text-warning container">
     <div class="row">
@@ -18,7 +21,7 @@
             data-mdb-animation-start="onScroll"
             data-mdb-animation-on-scroll="repeat"
             data-mdb-animation="slide-in-left"
-            class="col-md-3 col-sm-12">
+            class="col-md-3 col-sm-12 text-dark">
             <br />
             <h1>Imagine</h1>
             Think of a place where you like to go and be in 
@@ -40,7 +43,7 @@
             data-mdb-animation-start="onScroll"
             data-mdb-animation-on-scroll="repeat"
             data-mdb-animation="slide-in-right"
-            class="col-md-3 col-sm-12">
+            class="col-md-3 col-sm-12 text-dark">
             <br />
             <h1>Long Days</h1>
             After a long day of work or a hobby, it helps to relax.
@@ -48,5 +51,210 @@
             should be a place to kick up your feet and call home.
         </div>
     </div>
+  </div>
 </div>
+<!--content intro-->
+<br /><br />
+
+<!--customer reviews-->
+<div class="container text-center">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- Carousel wrapper -->
+            <div
+              id="carouselBasicExample"
+              class="carousel slide carousel-fade"
+              data-mdb-ride="carousel"
+            >
+              <!-- Indicators -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-mdb-target="#carouselBasicExample"
+                  data-mdb-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-mdb-target="#carouselBasicExample"
+                  data-mdb-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-mdb-target="#carouselBasicExample"
+                  data-mdb-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+
+              <!-- Inner -->
+              <div class="carousel-inner">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Inner -->
+
+              <!-- Controls -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Carousel wrapper -->
+        </div>
+    </div>
 </div>
+<!--customer reviews-->
+
+<br /><br />
+<!--text intro-->
+<div class="container mt-5 text-center jumbotron">
+    <h1 class="display-3">Our Gallery</h1>
+    <p class="lead">
+        Come to our location and feel the experience that one 
+        of our fireplaces can bring to your home.
+    </p>
+</div>
+<!--text intro-->
+
+<br /><br />
+<!--image gallery-->
+<div class="container text-center mt-5">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <img
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="fade-in"
+          src="https://images.unsplash.com/photo-1615874694520-474822394e73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+          class="img-fluid shadow-1-strong rounded"
+        />
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <img
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="fade-in"
+          data-mdb-animation-delay="300"
+          src="https://images.unsplash.com/photo-1586299576722-e14abcdcfcb3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80"
+          class="img-fluid shadow-1-strong rounded"
+        />
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <img
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="fade-in"
+          data-mdb-animation-delay="500"
+          src="https://images.unsplash.com/photo-1603039531759-1a1bbe4f9f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=432&q=80"
+          class="img-fluid shadow-1-strong rounded"
+        />
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <img
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="fade-in"
+          src="https://images.unsplash.com/photo-1573849420475-4f1c7bf06fa7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+          class="img-fluid shadow-1-strong rounded"
+        />
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <img
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="fade-in"
+          data-mdb-animation-delay="300"
+          src="https://images.unsplash.com/photo-1611589781386-0e204af66f6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80"
+          class="img-fluid shadow-1-strong rounded"
+        />
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <img
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="fade-in"
+          data-mdb-animation-delay="500"
+          src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=375&q=80"
+          class="img-fluid shadow-1-strong rounded"
+        />
+      </div>
+      <!--Grid column-->
+     </div>
+     <!--Grid row-->
+</div>
+<!--image gallery-->
