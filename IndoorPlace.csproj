@@ -5,6 +5,9 @@
     <Nullable>enable</Nullable>
     <Copyright>Indoor Place</Copyright>
     <PackageProjectUrl>https://devoutlet.azurewebsites.net/</PackageProjectUrl>
+    <RepositoryType>https://github.com/StephenBrooks220413/IndoorPlace.git</RepositoryType>
+    <AssemblyVersion>1.5.2.1</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
