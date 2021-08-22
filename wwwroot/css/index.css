@@ -9,3 +9,25 @@
     padding-top: 280px;
     padding-bottom: 280px;
 }
+
+.section1 {
+    background-image: linear-gradient(176deg, #22313F 70%, #FFFFFF calc(70% + 2px));
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+@media(max-width:650px){
+    .intro-bg {
+        background: url(/images/fireplace.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+        padding-top: 280px;
+        padding-bottom: 280px;
+    }
+}
