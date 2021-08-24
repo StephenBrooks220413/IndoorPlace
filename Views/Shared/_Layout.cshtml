@@ -46,9 +46,13 @@
                   <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Catalog">Catalog</a>
                 </li>
               </ul>
-              <span class="navbar-text">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-              </span>
+              <div class="navbar-text">
+                <div class="ec-cart-widget"></div>
+                <div>
+                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?64758132&data_platform=code&data_date=2021-08-24" charset="utf-8"></script>
+                <script type="text/javascript">Ecwid.init();</script>
+                </div>
+              </div>
             </div>
           </div>
         </nav>
@@ -123,7 +127,7 @@
       <!-- Grid container -->
 
       <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">:
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         &copy; 2021 - IndoorPlace - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
       </div>
       <!-- Copyright -->
